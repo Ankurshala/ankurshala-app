@@ -5,13 +5,15 @@ import './home-page.css'
 const HomePage = (props) => {
   return (
     <div>
+    {/*  *****   Link To Custom CSS Style Sheet   *****  */}
+    <link rel="stylesheet" type="text/css" href="style.css" />
     {/*  *****   Link To Font Awsome Icons   *****  */}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     {/*  *****   Link To Owl Carousel   *****  */}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>AnkurShala</title>
+    <title>Bright Future</title>
     {/*   *** Website Container Starts ***   */}
     <div className="website-container">
       {/*   *** Home Section Starts ***   */}
@@ -19,7 +21,7 @@ const HomePage = (props) => {
         {/*   === Main Navbar Starts ===   */}
         <nav className="main-navbar">
           <a href="#" className="logo">
-            <img src="/external/bgremoveremovebgpreview1i173-yq8j-200w.png" alt="bgremoveremovebgpreview1I173" />
+            <img src="images/home/logo.png" />
           </a>
           <ul className="nav-list">
             <li><a href="#home">Home</a></li>
@@ -48,7 +50,7 @@ const HomePage = (props) => {
           </div>
           <div className="banner-img">
             <div className="banner-img-container">
-              <img src="/external/student.png" />
+              <img src="images/home/student.png" />
               <div className="states">
                 <div className="total-courses">
                   <div className="icon">
@@ -65,7 +67,7 @@ const HomePage = (props) => {
                 </div>
               </div>
               <div className="pattern">
-                <img src="/external/pattern.png" />
+                <img src="images/home/pattern.png" />
               </div>
             </div>
           </div>
@@ -78,22 +80,22 @@ const HomePage = (props) => {
         <h3>Our trusted partners around the world</h3>
         <div className="owl-carousel owl-theme partners-slider">
           <div className="item brand-item">
-            <img src="/external/matoontapa.png" />
+            <img src="images/brand-logos/matoontapa.png" />
           </div>
           <div className="item brand-item">
-            <img src="/external/khostan.png" />
+            <img src="images/brand-logos/khostan.png" />
           </div>
           <div className="item brand-item">
-            <img src="/external/etimadya.png" />
+            <img src="images/brand-logos/etimadya.png" />
           </div>
           <div className="item brand-item">
-            <img src="/external/torghar.png" />
+            <img src="images/brand-logos/torghar.png" />
           </div>
           <div className="item brand-item">
-            <img src="/external/nadershakot.png" />
+            <img src="images/brand-logos/nadershakot.png" />
           </div>
           <div className="item brand-item">
-            <img src="/external/almarah.png" />
+            <img src="images/brand-logos/almarah.png" />
           </div>
         </div>
       </section>
@@ -153,10 +155,10 @@ const HomePage = (props) => {
         {/*   *** Courses Contents Starts ***   */}
         <div className="course-contents">
           <div className="course-card">
-            <img src="/external/course-1.jpg" />
+            <img src="images/courses/course-1.jpg" />
             <div className="category">
               <div className="subject"><h3>Design</h3></div>
-              <img src="/external/teacher-1.jpg" />
+              <img src="images/courses/teacher-1.jpg" />
             </div>
             <h2 className="course-title">Learn Figma: This is some dummy text demonistrating the title</h2>
             <div className="course-desc">
@@ -169,10 +171,10 @@ const HomePage = (props) => {
             </div>
           </div>
           <div className="course-card">
-            <img src="/external/course-1.jpg" />
+            <img src="images/courses/course-1.jpg" />
             <div className="category">
               <div className="subject"><h3>Design</h3></div>
-              <img src="/external/teacher-1.jpg" />
+              <img src="images/courses/teacher-1.jpg" />
             </div>
             <h2 className="course-title">Learn Figma: This is some dummy text demonistrating the title</h2>
             <div className="course-desc">
@@ -185,10 +187,10 @@ const HomePage = (props) => {
             </div>
           </div>
           <div className="course-card">
-            <img src="/external/course-1.jpg" />
+            <img src="images/courses/course-1.jpg" />
             <div className="category">
               <div className="subject"><h3>Design</h3></div>
-              <img src="/external/teacher-1.jpg" />
+              <img src="images/courses/teacher-1.jpg" />
             </div>
             <h2 className="course-title">Learn Figma: This is some dummy text demonistrating the title</h2>
             <div className="course-desc">
@@ -201,10 +203,10 @@ const HomePage = (props) => {
             </div>
           </div>
           <div className="course-card">
-            <img src="/external/course-1.jpg" />
+            <img src="images/courses/course-1.jpg" />
             <div className="category">
               <div className="subject"><h3>Development</h3></div>
-              <img src="/external/teacher-1.jpg" />
+              <img src="images/courses/teacher-1.jpg" />
             </div>
             <h2 className="course-title">Learn JavaScript: This is some dummy text demonistrating the title</h2>
             <div className="course-desc">
@@ -217,10 +219,10 @@ const HomePage = (props) => {
             </div>
           </div>
           <div className="course-card">
-            <img src="/external/course-1.jpg" />
+            <img src="images/courses/course-1.jpg" />
             <div className="category">
               <div className="subject"><h3>Development</h3></div>
-              <img src="/external/teacher-1.jpg" />
+              <img src="images/courses/teacher-1.jpg" />
             </div>
             <h2 className="course-title">Learn JavaScript: This is some dummy text demonistrating the title</h2>
             <div className="course-desc">
@@ -233,10 +235,10 @@ const HomePage = (props) => {
             </div>
           </div>
           <div className="course-card">
-            <img src="/external/course-1.jpg" />
+            <img src="images/courses/course-1.jpg" />
             <div className="category">
               <div className="subject"><h3>Development</h3></div>
-              <img src="/external/teacher-1.jpg" />
+              <img src="images/courses/teacher-1.jpg" />
             </div>
             <h2 className="course-title">Learn JQuery: This is some dummy text demonistrating the title</h2>
             <div className="course-desc">
@@ -463,11 +465,11 @@ const HomePage = (props) => {
               </div>
               <div className="contact-row">
                 <span>Website</span>
-                <span>AnkurShala</span>
+                <span>Five-Star-Tutorials.com</span>
               </div>
               <div className="contact-row">
                 <span>Email</span>
-                <span>AnkurShala</span>
+                <span>info@Five-Star-Tutorials.com</span>
               </div>
             </div>
           </div>
@@ -497,7 +499,7 @@ const HomePage = (props) => {
         </div>
         {/*   === Footer Contents Ends ===   */}
         <div className="copy-rights">
-          <p>Created By <b>AnkurShala</b> All Rights Reserved</p>
+          <p>Created By <b>Five Star Tutorials</b> All Rights Reserved</p>
         </div>
       </section>
       {/*   *** Footer Section Ends ***   */}

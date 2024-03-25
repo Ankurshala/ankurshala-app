@@ -497,7 +497,7 @@ const HomePage = (props) => {
         </div>
         {/*   === Footer Contents Ends ===   */}
         <div className="copy-rights">
-          <p>Created By <b>AnkurShala</b> All Rights Reserved</p>
+          <p>Created By <b>Five Star Tutorials</b> All Rights Reserved</p>
         </div>
       </section>
       {/*   *** Footer Section Ends ***   */}

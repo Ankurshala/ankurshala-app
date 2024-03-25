@@ -413,7 +413,7 @@ const StudentDashboard = (props) => {
         />
         <span className="frame-text48">
           <span>
-            <span>Name:- UniqueAge:- 12 YearsClass;- 8th</span>
+            <span>Name:- Unique Age:- 12 Years Class;- 8th</span>
             <br></br>
             <span>Ankurshala Rank:- 121/500</span>
           </span>

@@ -280,7 +280,7 @@ form.sign-in-form {
   }
 
   .image {
-    width: 200px;
+    width: 500px;
     transition: transform 0.9s ease-in-out;
     transition-delay: 0.6s;
   }
